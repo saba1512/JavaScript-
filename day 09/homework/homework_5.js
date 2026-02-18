@@ -5,6 +5,6 @@ let users = [
   { id: 4, name: "Luka" }
 ];
 
-let user = users.find(u => u.id === 3);
+let user = users.find(i => i.id === 3);
 
 console.log(user);
